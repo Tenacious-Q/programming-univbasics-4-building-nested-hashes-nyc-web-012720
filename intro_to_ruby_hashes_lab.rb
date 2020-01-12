@@ -18,7 +18,7 @@ def monopoly_with_third_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
 	hash = {:railroads => {:pieces => 4}}
-	hash = {:railroads => {:pieces => 4, :rent_in_dollars => {:key1 => "1", :key2 => "2", :key1 => "3", :key1 => "4"}}}
+	hash = {:railroads => {:pieces => 4, :rent_in_dollars = {:key1 => "1", :key2 => "2", :key1 => "3", :key1 => "4"}}}
 end
 
 def monopoly_with_fourth_tier
